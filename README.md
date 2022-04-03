@@ -1,3 +1,9 @@
+# Fig Fruit
+
+## [Live](https://fig-fruit-production-analysis.netlify.app/)
+
+### Live website link : https://fig-fruit-production-analysis.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
