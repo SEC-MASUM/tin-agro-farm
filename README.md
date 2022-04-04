@@ -4,6 +4,11 @@
 
 ### Live website link : https://fig-fruit-production-analysis.netlify.app/
 
+- It's a product analysis website
+- Here have Home, Review, Dashboard, Blog and About page
+- React, React Route Dom, Custom Hook, React Icon, Tailwind CSS, Recharts are used
+- This project is deployed in Netlify.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
