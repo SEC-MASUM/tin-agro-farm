@@ -1,13 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import figImage from "../../Assets/images/fig-2.jpg";
 import useReviews from "../../hooks/useReviews";
 import Review from "../Review/Review";
 
-const Home = () => {
-  let navigate = useNavigate();
+const Home = ({ setShow }) => {
+  setShow(true);
   const [reviews, setReviews] = useReviews();
-  // const [count, setCount] = useState(0);
+  let navigate = useNavigate();
+  console.log(reviews);
 
   return (
     <div className="max-w-7xl mx-auto my-10">
@@ -38,13 +39,13 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Review Section i Home page */}
+      {/* Review Section in Home page */}
       <div className="my-28">
         <h1 className="font-bold text-6xl text-slate-700 mb-20">
           What Our <span className="text-green-500"> Customers Are Saying</span>
         </h1>
         <div className="grid grid-cols-3 gap-8">
-          {reviews.map((review) => (
+          {reviews.slice(3).map((review) => (
             <Review key={review.id} review={review}></Review>
           ))}
         </div>
@@ -53,7 +54,7 @@ const Home = () => {
           onClick={() => navigate("/reviews")}
           className="bg-green-200 rounded-md px-6 py-4 mt-5 font-semibold text-xl text-slate-700 shadow-md shadow-green-500"
         >
-          See More
+          See All Reviews
         </button>
       </div>
     </div>

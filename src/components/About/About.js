@@ -1,6 +1,7 @@
 import React from "react";
 
-const About = () => {
+const About = ({ setShow }) => {
+  setShow(true);
   return (
     <div>
       <h1>This is About</h1>

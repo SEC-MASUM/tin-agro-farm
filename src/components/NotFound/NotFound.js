@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./NotFound.css";
 
-const NotFound = () => {
+const NotFound = ({ setShow }) => {
+  setShow(false);
   return (
     <div className="h-[100vh] bg-indigo-500 flex items-center justify-center bg-no-repeat bg-cover bg-bottom error-bg">
       <div className="row">
@@ -22,9 +24,12 @@ const NotFound = () => {
           <p className="text-gray-100 mt-2 mb-6">
             we are sorry, but the page you requested was not found
           </p>
-          <a className="bg-green-400 px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-gray-50 rounded-full hover:shadow-lg">
+          <Link
+            to="/"
+            className="bg-green-400 px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-gray-50 rounded-full hover:shadow-lg"
+          >
             Got to Home
-          </a>
+          </Link>
         </div>
       </div>
     </div>

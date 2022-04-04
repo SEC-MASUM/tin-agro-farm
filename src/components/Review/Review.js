@@ -1,14 +1,14 @@
 import React from "react";
-import {AiFillStar} from "react-icons/ai"
+import { AiFillStar } from "react-icons/ai";
 
 const Review = ({ review }) => {
   const { author, posted_date, image, rating, text } = review;
   return (
     <div>
-      <div className="max-w-md py-4 px-8 bg-white shadow-lg shadow-sky-300 rounded-lg my-20">
+      <div className="max-w-md py-4 px-8 bg-white shadow-md shadow-gray-300 rounded-lg my-8">
         <div className="flex justify-center md:justify-start -mt-16">
           <img
-            className="w-20 h-20 object-cover rounded-full border-2 border-fuchsia-700 shadow-md shadow-purple-500"
+            className="w-20 h-20 object-cover rounded-full border-2 border-white shadow-sm shadow-slate-500"
             src={image}
             alt="profile"
           />
@@ -25,7 +25,9 @@ const Review = ({ review }) => {
               {rating} <AiFillStar />
             </h3>
           </div>
-          <p className="mt-2 text-gray-600 text-left font-medium text-lg text-justify">{text}</p>
+          <p className="mt-2 text-gray-600 text-left font-medium text-lg text-justify">
+            {text}
+          </p>
         </div>
         {/* <div className="flex justify-end mt-4">
           <a href="#" className="text-xl font-medium text-indigo-500">
