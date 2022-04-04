@@ -9,7 +9,7 @@ const useChart = () => {
       .then((res) => res.json())
       .then((data) => {
         setChartData(data);
-        console.log(data);
+        // console.log(data);
       });
     //
   }, []);

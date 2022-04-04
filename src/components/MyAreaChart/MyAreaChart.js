@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Area,
   AreaChart,
   CartesianGrid,
-  ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
@@ -11,7 +10,7 @@ import {
 import useChart from "../../hooks/useChart";
 
 const MyAreaChart = () => {
-    const [chartData, setChartData] = useChart();
+  const [chartData] = useChart();
 
   return (
     <div>
@@ -20,17 +19,20 @@ const MyAreaChart = () => {
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
+
         <Area
           type="monotone"
-          dataKey={"revenue"}
-          stroke="#8884d8"
-          fill="#8884d8"
+          dataKey="investment"
+          stackId="1"
+          stroke="#944dff"
+          fill="#b380ff"
         />
         <Area
           type="monotone"
-          dataKey={"investment" }
-          stroke="#8884d8"
-          fill="#8884d8"
+          dataKey="revenue"
+          stackId="1"
+          stroke="#32CD32"
+          fill="#90ee90"
         />
       </AreaChart>
     </div>
