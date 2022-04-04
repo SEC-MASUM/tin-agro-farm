@@ -1,11 +1,13 @@
 import React from "react";
-import MyLineChart from "../MyPieChart/MyPieChart";
+import MyAreaChart from "../MyAreaChart/MyAreaChart";
+import MyLineChart from "../MyLineChart/MyLineChart";
 
 const Dashboard = () => {
   return (
     <div>
       <h1>This is Dashboard</h1>
-      <MyLineChart />
+      <MyLineChart></MyLineChart>
+      <MyAreaChart></MyAreaChart>
     </div>
   );
 };
