@@ -1,0 +1,58 @@
+const reviewData = [
+  {
+    id: 1,
+    author: "Amazon Customer",
+    posted_date: "22 Sep 2016",
+    header: "Small but mighty",
+    rating: 5,
+    text: "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    image: "../../Assets/images/profile-1.png",
+  },
+  {
+    id: 2,
+    author: "Amazon Customer",
+    posted_date: "17 May 2017",
+    header: "Small but mighty",
+    rating: 4,
+    text: "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    image: "../../Assets/images/profile-2.png",
+  },
+  {
+    id: 3,
+    author: "Amazon Customer",
+    posted_date: "30 Dec 2018",
+    header: "Small but mighty",
+    rating: 4.5,
+    text: "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    image: "../../Assets/images/profile-3.png",
+  },
+  {
+    id: 4,
+    author: "Amazon Customer",
+    posted_date: "15 Feb 2019",
+    header: "Small but mighty",
+    rating: 5,
+    text: "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    image: "../../Assets/images/profile-4.png",
+  },
+  {
+    id: 5,
+    author: "Amazon Customer",
+    posted_date: "04 Aug 2020",
+    header: "Small but mighty",
+    rating: 4.3,
+    text: "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    image: "../../Assets/images/profile-5.png",
+  },
+  {
+    id: 6,
+    author: "Amazon Customer",
+    posted_date: "23 Jul 2021",
+    header: "Small but mighty",
+    rating: 4.6,
+    text: "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    image: "../../Assets/images/profile-6.png",
+  },
+];
+
+export default reviewData;
