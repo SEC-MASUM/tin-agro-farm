@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Fig Fruit Review</h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/reviews" element={<Reviews />} />
