@@ -1,32 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
   return (
     <div>
-      <nav className="bg-gray-100 font-sans w-full m-0">
-        <div className="bg-white shadow">
-          <div className="container max-w-7xl mx-auto px-4">
-            <div className="flex items-center justify-between py-4">
-              <div className="sm:flex sm:items-center ">
-                <Link className="uppercase" to="/">
-                  Home
-                </Link>
-                <Link className="uppercase" to="/reviews">
-                  Reviews
-                </Link>
-                <Link className="uppercase" to="/dashboard">
-                  Dashboard
-                </Link>
-                <Link className="uppercase" to="/blogs">
-                  Blogs
-                </Link>
-                <Link className="uppercase" to="/about">
-                  About
-                </Link>
-              </div>
-            </div>
-          </div>
+      <nav className="font-sans w-full m-0">
+        <div className="container max-w-7xl mx-auto px-4 py-4">
+          <CustomLink to="/">Home</CustomLink>
+          <CustomLink to="/reviews">Reviews</CustomLink>
+          <CustomLink to="/dashboard">Dashboard</CustomLink>
+          <CustomLink to="/blogs">Blogs</CustomLink>
+          <CustomLink to="/about">About</CustomLink>
         </div>
       </nav>
     </div>
