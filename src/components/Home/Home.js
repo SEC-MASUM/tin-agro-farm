@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import figImage from "../../Assets/images/fig-2.jpg";
 import useReviews from "../../hooks/useReviews";
@@ -6,7 +6,7 @@ import Review from "../Review/Review";
 
 const Home = ({ setShow }) => {
   setShow(true);
-  const [reviews, setReviews] = useReviews();
+  const [reviews] = useReviews();
   let navigate = useNavigate();
   console.log(reviews);
 

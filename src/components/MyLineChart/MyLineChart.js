@@ -4,7 +4,6 @@ import useChart from "../../hooks/useChart";
 
 const MyLineChart = () => {
   const [chartData] = useChart();
-//   console.log(chartData);
 
   return (
     <div className="flex flex-col justify-center items-center">

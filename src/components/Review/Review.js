@@ -29,11 +29,7 @@ const Review = ({ review }) => {
             {text}
           </p>
         </div>
-        {/* <div className="flex justify-end mt-4">
-          <a href="#" className="text-xl font-medium text-indigo-500">
-            John Doe
-          </a>
-        </div> */}
+        
       </div>
     </div>
   );

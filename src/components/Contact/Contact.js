@@ -37,7 +37,7 @@ const Contact = ({ setShow }) => {
             <div class="container">
               <div class="relative flex flex-col min-w-0 break-words w-full">
                 <div class="flex-auto p-5 lg:p-10">
-                  <img className="w-4/5" src={contact} alt="contact image" />
+                  <img className="w-4/5" src={contact} alt="contact" />
                 </div>
               </div>
             </div>

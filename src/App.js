@@ -1,14 +1,12 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import About from "./components/Contact/Contact";
 import Blogs from "./components/Blogs/Blogs";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
 import Reviews from "./components/Reviews/Reviews";
-import useReviews from "./hooks/useReviews";
 import Contact from "./components/Contact/Contact";
 
 function App() {

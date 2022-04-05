@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import useReviews from "../../hooks/useReviews";
 import Review from "../Review/Review";
-// import reviewData from "./reviewData";
+
 const Reviews = ({ setShow }) => {
   setShow(true);
-  const [reviews, setReviews] = useReviews();
+  const [reviews] = useReviews();
   return (
     <div className="max-w-7xl mx-auto my-5">
       <h1 className="font-bold text-6xl text-slate-700 mb-16">
