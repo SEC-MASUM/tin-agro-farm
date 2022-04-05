@@ -1,56 +1,56 @@
  [
   {
     "id": 1,
-    "author": "Amazon Customer",
+    "author": "Fahmida",
     "posted_date": "22 Sep 2016",
     "header": "Small but mighty",
     "rating": 5,
-    "text": "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    "text": "This deliciously fruity and refreshing dried Anjeer will have you feeling like it's summer all year round. Made with best quality large size fruit.",
     "image" : "./Assets/images/profile-1.png"
   },
   {
     "id": 2,
-    "author": "Amazon Customer",
+    "author": "Zeina Hasan",
     "posted_date": "17 May 2017",
     "header": "Small but mighty",
     "rating": 4,
-    "text": "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    "text": "The white spots are quite natural with dried figs and these are not fungus.after eating some figs, my impression is that these figs are of good quality,  very sweet.",
     "image" : "./Assets/images/profile-2.png"
   },
   {
     "id": 3,
-    "author": "Amazon Customer",
+    "author": "Hasnahena",
     "posted_date": "30 Dec 2018",
     "header": "Small but mighty",
     "rating": 4.5,
-    "text": "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    "text": "With a significant amount of potassium, dry fig are excellent for lowering blood pressure.With a good amount of vitamin E, vitamin C and calcium, these dried fruits can give your skin a much-needed boost.",
     "image" : "./Assets/images/profile-3.png"
   },
   {
     "id": 4,
-    "author": "Amazon Customer",
+    "author": "Ummay Bi",
     "posted_date": "15 Feb 2019",
     "header": "Small but mighty",
     "rating": 5,
-    "text": "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    "text": "Just awesome, Highly recommended. This product has produced and reserved by maintaining of International standard.",
     "image" : "./Assets/images/profile-4.png"
   },
   {
     "id": 5,
-    "author": "Amazon Customer",
+    "author": "Shakhawat Hossen",
     "posted_date": "04 Aug 2020",
     "header": "Small but mighty",
     "rating": 4.3,
-    "text": "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    "text": "Alhamdulillah, this is a wonderful things to eat. Very good packing and one time delivery. And although small in size, test was very much delicious, I ate it first time. I will take it again.",
     "image" : "./Assets/images/profile-5.png"
   },
   {
     "id": 6,
-    "author": "Amazon Customer",
+    "author": "Jamil Ahamed",
     "posted_date": "23 Jul 2021",
     "header": "Small but mighty",
     "rating": 4.6,
-    "text": "This deliciously fruity and refreshing frozen beverage will have you feeling like it's summer all year round. Made with real fruit juices and purees.",
+    "text": "এটা মিষ্টি কিন্তু এটা ডায়াবেটিস রোগীরা  খেতে পারবে এবং ডায়াবেটিস রোগীদের জন্য অত্যন্ত উপকারী একটি ফল। ",
     "image" : "./Assets/images/profile-6.png"
   }
 ]

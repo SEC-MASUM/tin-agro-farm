@@ -21,10 +21,11 @@ const Home = ({ setShow }) => {
             For a better Life
           </h1>
           <p className="text-left text-justify font-normal text-xl mr-16 my-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad illum
-            suscipit nobis perferendis harum, pariatur omnis quisquam ipsa at
-            quaerat quod voluptatum reiciendis quia hic enim dolor aut sint
-            quibusdam eius placeat dolorem dignissimos minima consequuntur
+            Tin Fruits and Vegetables work as a non-perishable and safe
+            alternative for fresh or frozen fruits and vegetables. Tin fruits
+            and vegetables are vital sources of nutrients because they are
+            tinned soon after harvest ensuing minimal loss of nutrients and high
+            in quality.
           </p>
           <button className="bg-purple-200 rounded-md px-6 py-4 mt-5 ml-8 font-semibold text-xl text-fuchsia-900 shadow-md shadow-purple-500">
             Live Demo
